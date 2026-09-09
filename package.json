@@ -1,0 +1,13 @@
+{
+  "name": "demo-security-repo",
+  "version": "1.0.0",
+  "description": "Demo vulnerable project",
+  "dependencies": {
+    "ajv": "8.17.1",
+    "fast-uri": "3.0.6"
+  },
+  "scripts": {
+    "build": "echo Build successful",
+    "test": "echo Tests passed"
+  }
+}
