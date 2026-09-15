@@ -1,0 +1,17 @@
+trigger: none
+
+schedules:
+- cron: "*/5 * * * *"
+  displayName: Check Security Vulnerabilities
+  always: true
+  branches:
+    include:
+      - master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    echo "Checking for new security vulnerabilities..."
+  displayName: Security Agent Trigger
