@@ -4,7 +4,7 @@
   "description": "Demo vulnerable project",
   "dependencies": {
     "ajv": "8.17.1",
-    "fast-uri": "3.0.6"
+    "fast-uri": "2.4.0"
   },
   "scripts": {
     "build": "echo Build successful",
